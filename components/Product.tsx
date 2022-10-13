@@ -39,3 +39,5 @@ const Product = (props: IProductProps) => {
     </div>
   );
 };
+
+export default Product;
