@@ -1,4 +1,5 @@
 import Image, { StaticImageData } from "next/image";
+import styles from "../styles/Home.module.css";
 
 export interface IProduct {
   id: string;
