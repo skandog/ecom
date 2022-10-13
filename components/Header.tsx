@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <Link href="/">
-        <Image src="/static/logo.svg" alt="" />
+        <Image src="/static/logo.svg" layout="fill" alt="" />
       </Link>
       <Link href="/">
         <h1>FishCastle</h1>
