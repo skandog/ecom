@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Product.module.scss";
 
 export interface IProduct {
   id: string;
