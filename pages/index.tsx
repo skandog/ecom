@@ -37,7 +37,7 @@ export default function Home({ products }: IProductListProps) {
       <div
         hidden
         id="snipcart"
-        data-api-key="YTBjODVlYTAtMjM3OC00OGExLWE5YTktYmNmOTQ3YTU5YTYzNjM4MDEyNjY3NjY5MjA2NTI0"
+        data-api-key={process.env.NEXT_PUBLIC_API_KEY}
       ></div>
     </div>
   );
