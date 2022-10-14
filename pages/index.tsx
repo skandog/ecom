@@ -21,7 +21,9 @@ export default function Home({ products }: IProductListProps) {
       </Head>
 
       <main className="main">
-        <ProductList products={products} />
+        <div>
+          <ProductList products={products} />
+        </div>
       </main>
     </div>
   );
